@@ -3,7 +3,7 @@ import InmindCard from "./InmindCard";
 
 function ThreeThingsInMind() {
   return (
-    <>
+    <div className="mb-36 max-w-[78rem] mx-auto">
       <InmindCard
         count={"01/"}
         title={"Beauty"}
@@ -28,7 +28,7 @@ function ThreeThingsInMind() {
           "Designing tailor made solutions that resonate with your customers and drives them to act."
         }
       />
-    </>
+    </div>
   );
 }
 

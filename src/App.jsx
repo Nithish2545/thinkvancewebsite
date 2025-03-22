@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <div className="container max-w-[88rem] mx-auto">
-        <button className=" fixed bottom-6 right-6 cursor-pointer bg-black py-3 px-5 text-[16px] font-regular rounded-full flex gap-2 text-white items-center group transition-all duration-300 hover:bg-[#FF34F3]">
+        <button className=" fixed bottom-6 z-20 right-6 cursor-pointer bg-black py-3 px-5 text-[16px] font-regular rounded-full flex gap-2 text-white items-center group transition-all duration-300 hover:bg-[#FF34F3]">
           Start your project
           <img
             src="arrow-button-icon.svg"
