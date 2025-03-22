@@ -1,3 +1,4 @@
+import OurResult from "./OurResult";
 import OurWork from "./OurWork";
 import Servicecard from "./Servicecard";
 import ThereeThingsInMind from "./ThereeThingsInMind";
@@ -25,7 +26,7 @@ function App() {
                 SERVICES
               </h1>
             </div>
-            <img src="arrow-icon.svg" className="w-32"></img>
+            <img src="finalArrow.svg" className="w-32"></img>
           </div>
           <Servicecard />
           <Servicecard />
@@ -37,6 +38,9 @@ function App() {
       </div>
       <div className="bg-black">
         <OurWork />
+      </div>
+      <div className="bg-black">
+        <OurResult />
       </div>
     </div>
   );
