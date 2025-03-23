@@ -23,7 +23,7 @@ function OurResult() {
               rise in engaged sessions per user after 1 month
             </p>
           </div>
-          <button className="mt-10 w-fit cursor-pointer border-2 border-white bg-black py-3 px-6 text-[18px] rounded-full flex items-center gap-3 text-white transition-all duration-300 group hover:bg-white hover:text-black">
+          <button className="mt-10 w-fit cursor-pointer border-2 border-white bg-black py-3 px-6 text-[18px] rounded-full flex items-center gap-3 text-white transition-all duration-300 group ">
             Find out more
             <img
               src="arrow-button-icon.svg"

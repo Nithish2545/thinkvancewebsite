@@ -1,13 +1,13 @@
 import React from "react";
 import WorkCard from "./WorkCard";
 
-function OurWork() {
+function OurWork({ targetRef, targetRef1 }) {
   return (
     <div className=" container max-w-[80rem] mx-auto pt-48">
       <div className="flex flex-row justify-between items-end ">
         <h1 className="text-white leading-none text-[10rem]">OUR</h1>
         <div className="flex-col">
-          <p className="text-white text-6xl w-[540px] mb-4">
+          <p ref={targetRef} className="text-white text-6xl w-[540px] mb-4">
             Making brands a damn site better.
           </p>
           <p className="text-white w-[600px]">
@@ -42,7 +42,10 @@ function OurWork() {
             <div className="absolute inset-0 before:absolute before:inset-0 before:bg-black before:opacity-0 group-hover:before:opacity-80 before:transition-opacity before:duration-300 before:ease-in-out"></div>
             {/* Text Fully Visible on Hover */}
             <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
-              <p className="text-white font-normal leading-snug text-[3.2rem] w-[88%] text-start px-6 drop-shadow-lg">
+              <p
+                ref={targetRef1}
+                className="text-white font-normal leading-snug text-[3.2rem] w-[88%] text-start px-6 drop-shadow-lg"
+              >
                 We created the visual and verbal brand for the new flight loan
                 company.
               </p>
